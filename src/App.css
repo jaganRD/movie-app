@@ -53,8 +53,6 @@ hr {
   border-color: #fff;
 }
 
-
-
 .movie img {
   height: 250px;
   width: 214px;
@@ -67,10 +65,13 @@ hr {
   opacity: 0.75;
 }
 
+.movie-text {
 
-.movie:hover .movie-text {
-  display: none;
 }
+
+/* .movie:hover .movie-text {
+  display: none;
+} */
 
 .movie:hover .movie-remove {
   display: block;
@@ -92,6 +93,9 @@ hr {
   display: none;
 }
 
+.Recommendations {
+
+}
 
 .footer {
   position: fixed;

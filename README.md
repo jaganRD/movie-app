@@ -3,6 +3,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 npm install, npm run start, to build in prod npm run build
 
+install json-server globally
+
+npm install -g json-server
+
+To run server please use command "$ json-server -p 8000 db.json"
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
