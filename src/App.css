@@ -9,18 +9,6 @@ hr {
   opacity: 0.5;
 }
 
-.navbar {
-  cursor: pointer;
-  background-color: #b61414;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  border-radius: 0;
-  height: 60px;
-  z-index: 1000;
-}
-
 .netflix-icon {
   height: 59px;
   width: 150px;
@@ -35,6 +23,8 @@ hr {
 .content-wrapper {
   z-index: 0;
   margin-left: 80px;
+  display: flex;
+  flex-direction: row;
 }
 
 .MyList {
@@ -43,7 +33,6 @@ hr {
 
 .movie {
   border: 3px solid #DEB887;
-  display: inline-block;
   margin: 10px;
   height: 300px;
   width: 220px;
@@ -59,19 +48,10 @@ hr {
 }
 
 .movie-menu {
-  cursor: pointer;
-  text-align: center;
-  padding: 10px;
+  padding: 5px;
   opacity: 0.75;
 }
 
-.movie-text {
-
-}
-
-/* .movie:hover .movie-text {
-  display: none;
-} */
 
 .movie:hover .movie-remove {
   display: block;
@@ -93,9 +73,6 @@ hr {
   display: none;
 }
 
-.Recommendations {
-
-}
 
 .footer {
   position: fixed;
@@ -104,6 +81,11 @@ hr {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.Recommendations .container{
+  padding-bottom: 50px
+
 }
 
 @keyframes fade-in {
