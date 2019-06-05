@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import logo from './netflix.png';
 
 class MyList extends Component {
 
@@ -15,10 +16,12 @@ class MyList extends Component {
         console.log('this.props in myList', this.props);
         return (
             <div>
+                <div className="navbar">
+                <img className="img-responsive" src={logo} alt='neflix' />
+                </div>
                 <div
                     className="MyList container">
-                    <h4 className="section-title">My List ({this.props.myList.length})</h4>
-                    <hr />
+                    <h4 className="section-title">My List ({this.props.myList.length})</h4>          
                     <div className="content-wrapper container">
                         {
                             this.props.myList.length > 0
@@ -54,7 +57,6 @@ class MyList extends Component {
                 <div
                     className="Recommendations container">
                     <h4 className="section-title">Recommendations ({this.props.recommendations.length})</h4>
-                    <hr />
                     <div className="content-wrapper container">
                         {
                             this.props.recommendations.length > 0

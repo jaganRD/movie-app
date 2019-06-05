@@ -18,6 +18,8 @@ hr {
   color: #c6c5c5;
   font-size: 16px;
   margin-left: 10px;
+  padding-top: 40px;
+  text-decoration: underline;
 }
 
 .content-wrapper {
@@ -48,8 +50,9 @@ hr {
 }
 
 .movie-menu {
-  padding: 5px;
+  padding: 10px;
   opacity: 0.75;
+  text-align: center;
 }
 
 
@@ -63,6 +66,11 @@ hr {
 
 .movie-remove, .movie-add {
   display: none;
+  width: 223px;
+  height: 25px;
+  color: white;
+  background-color: #F6111D;
+
 }
 
 .movie-remove .glyphicon, .movie-add .glyphicon {
@@ -95,4 +103,13 @@ hr {
   to {
       opacity: 0.8
   }
+}
+
+.img-responsive {
+  height: 45px;
+    width: 142px;
+}
+
+.navbar{
+  margin-left: 13px;
 }

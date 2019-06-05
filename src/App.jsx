@@ -98,7 +98,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <div style={{ padding: '30px' }} />
+                <div style={{ padding: '10px' }} />
                 <MyList
                     myList={this.state.myList}
                     recommendations={this.state.recommendations}
