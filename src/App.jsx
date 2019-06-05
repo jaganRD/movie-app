@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import MyList from './components/MyList';
-import Recommendations from './components/Recommendations';
 import './App.css';
 
 class App extends Component {
